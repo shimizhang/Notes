@@ -13,7 +13,7 @@ M--F--R: 8 segmentaions
 |F  |F<3  |3<=F<9|9<=F<15|15<=F<30|F>=30
 |M  |M<1800|1800<=F<3000|3000<=F<6000|6000<=F<9000|F>=9000
 
-**Models in Excel**
+### Models in Excel
 
 R "=IF(B2>30,1,IF(B2>15,2,IF(B2>10,3,IF(B2>5,4,5))))"
 
@@ -27,7 +27,7 @@ R|
 F|
 M|
 
-segmentations:
+**segmentations**:
 
 “=IF(AND(E2>$P$2,F2>$P$3,G2>$P$4),"重要价值客户",
 
